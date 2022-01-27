@@ -9,9 +9,9 @@ tar xvzf gg_13_8_99.taxonomy.tgz gg_13_8_99.fasta gg_13_8_99.gg.tax
 rm gg_13_8_99.taxonomy.tgz
 
 # Run mothur through the various quality control steps
-# mothur get_good_seqs.batch 
+mothur get_good_seqs.batch 
 # Screening sequences according what you observe in summary sequences
-# mothur screen_seqs.batch
+mothur screen_seqs.batch
 # Run mock community data through mothur to get the shared file
 mothur get_shared_otus.batch
 
